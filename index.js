@@ -1,4 +1,5 @@
-var ui = new firebaseui.auth.AuthUI(firebase.auth());
+var firebase = require('firebase');
+var firebaseui = require('firebaseui');
 firebase.auth().onAuthStateChanged(function(user)
                                    {
   if (user) {
