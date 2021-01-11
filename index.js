@@ -1,4 +1,6 @@
-firebase.auth().onAuthStateChanged(function(user) {
+var ui = new firebaseui.auth.AuthUI(firebase.auth());
+firebase.auth().onAuthStateChanged(function(user)
+                                   {
   if (user) {
     // User is signed in.
 
