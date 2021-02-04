@@ -9,6 +9,15 @@ body{
     overflow: hidden;
 }
 
+::selection {
+	background: #38d39f;
+	color: #ffffff;
+}
+::-moz-selection {
+	background: #38d39f;
+	color: #ffffff;
+}
+
 .wave{
 	position: fixed;
 	bottom: 0;
